@@ -5,9 +5,9 @@ import csv
 import numpy as np
 from PyQt6.QtWidgets import (
     QComboBox, QSpinBox, QApplication, QWidget, QLabel, QHBoxLayout, QVBoxLayout,
-    QPushButton, QDateTimeEdit, QTimeEdit, QSizePolicy
+    QPushButton, QTimeEdit, QSizePolicy
 )
-from PyQt6.QtCore import QDateTime, QTimer, QTime, QDate
+from PyQt6.QtCore import QTimer, QTime
 import matplotlib.pyplot as plt
 from matplotlib.patches import Ellipse
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
