@@ -1,3 +1,14 @@
+#!/usr/bin/env -S uv run --script
+#
+# /// script
+# dependencies = [
+#   "lmfit",
+#   "matplotlib",
+#   "numpy",
+#   "PyQt6",
+# ]
+# ///
+
 import sys
 import math
 import os
